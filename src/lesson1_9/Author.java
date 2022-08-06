@@ -1,3 +1,5 @@
+package lesson1_9;
+
 public class Author {
     private final String authorName;
     private final String authorSurname;
