@@ -1,19 +1,19 @@
 package lesson1_9;
 
 public class Author {
-    private final String authorName;
-    private final String authorSurname;
+    private final String name;
+    private final String surname;
 
-    public Author(String authorName, String authorSurname) {
-        this.authorName = authorName;
-        this.authorSurname = authorSurname;
+    public Author(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
     }
 
-    public String getAuthorSurname() {
-        return authorSurname;
+    public String getSurname() {
+        return surname;
     }
 
-    public String getAuthorName() {
-        return authorName;
+    public String getName() {
+        return name;
     }
 }

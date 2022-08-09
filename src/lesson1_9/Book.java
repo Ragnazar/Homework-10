@@ -6,7 +6,7 @@ public class Book {
     private int yearPublishing;
 
     public Book(String bookName, Author author, int yearPublishing) {
-        this.author = author.getAuthorSurname() + " " + author.getAuthorName();
+        this.author = author.getSurname() + " " + author.getName();
         this.bookTitle = bookName;
         this.yearPublishing = yearPublishing;
     }
