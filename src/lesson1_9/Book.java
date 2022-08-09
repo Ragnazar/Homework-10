@@ -2,16 +2,19 @@ package lesson1_9;
 
 public class Book {
     private final String bookTitle;
-    private final String author;
+    private final Author author;
     private int yearPublishing;
 
+
+
+
     public Book(String bookName, Author author, int yearPublishing) {
-        this.author = author.getSurname() + " " + author.getName();
+        this.author = new Author(author.getSurname(), author.getName());
         this.bookTitle = bookName;
         this.yearPublishing = yearPublishing;
     }
 
-    public String getAuthor() {
+    public Author getAuthor() {
         return author;
     }
 
