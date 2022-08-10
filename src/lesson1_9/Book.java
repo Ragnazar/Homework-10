@@ -1,16 +1,16 @@
 package lesson1_9;
 
 public class Book {
-    private final String bookTitle;
+    private final String title;
     private final Author author;
     private int yearPublishing;
 
 
 
 
-    public Book(String bookName, Author author, int yearPublishing) {
-        this.author = new Author(author.getSurname(), author.getName());
-        this.bookTitle = bookName;
+    public Book(String title, Author author, int yearPublishing) {
+        this.author = author;
+        this.title = title;
         this.yearPublishing = yearPublishing;
     }
 
@@ -18,8 +18,8 @@ public class Book {
         return author;
     }
 
-    public String getBookTitle() {
-        return bookTitle;
+    public String getTitle() {
+        return title;
     }
 
     public int getYearPublishing() {

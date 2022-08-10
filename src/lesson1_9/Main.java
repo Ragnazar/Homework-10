@@ -10,8 +10,8 @@ public class Main {
         Book book2 = new Book("Call of the wild", author2, 1950);
 
         book.setYearPublishing(1957);
-        System.out.println(book.getBookTitle() + ", " + book.getYearPublishing() + ", " + book.getAuthor().getSurname() + " " + book.getAuthor().getName());
-        System.out.println(book2.getBookTitle() + ", " + book2.getYearPublishing() + ", " + book2.getAuthor().getSurname() + " " + book2.getAuthor().getName());
+        System.out.println(book.getTitle() + ", " + book.getYearPublishing() + ", " + book.getAuthor().getSurname() + " " + book.getAuthor().getName());
+        System.out.println(book2.getTitle() + ", " + book2.getYearPublishing() + ", " + book2.getAuthor().getSurname() + " " + book2.getAuthor().getName());
     }
 
 
